@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: bisque;
+}
+
+h1{
+    color: cornflowerblue;
+}
+
+.buttons{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+button {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    font-weight: 900;
+    background-color: chocolate;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}

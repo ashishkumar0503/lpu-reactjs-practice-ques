@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards_content {
+    width: 20%;
+    border-radius: 5px;
+    margin: 40px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.image img {
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    padding: 5px;
+}
+
+.desc {
+    text-align: center;
+}
+
+button {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+}
