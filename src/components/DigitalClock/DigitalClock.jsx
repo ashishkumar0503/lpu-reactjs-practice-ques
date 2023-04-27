@@ -20,7 +20,6 @@ const DigitalClock = () => {
         <div className="clock">
             <h1>{ currentTime }</h1>
             <p>{ date }</p>
-
         </div>
     </div>
   )
