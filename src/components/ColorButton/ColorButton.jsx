@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+// Display the color button and message of the submit button
+
 const ColorButton = () => {
 
     const [isProcessing, setIsProcessing] = useState(false);

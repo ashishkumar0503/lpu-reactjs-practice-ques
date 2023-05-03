@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+// Display the list of items
+
 const List = () => {
 
     const [isClick, setIsClick] = useState(false);

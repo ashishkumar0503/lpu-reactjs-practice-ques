@@ -1,5 +1,8 @@
 import React, { useState } from 'react'
 import ProgressBar from 'react-bootstrap/ProgressBar'
+
+// Display the progress bar
+
 const ProgressBarMarks = () => {
 
     const [marks, setMarks] = useState([85, 90, 72, 65, 92]);

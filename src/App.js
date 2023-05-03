@@ -1,5 +1,14 @@
 import './App.css';
-import ColorButton from './components/ColorButton/ColorButton';
+import Button from './etpQues/ques6/Button';
+// import AddNum from './etpQues/ques6/AddNum';
+// import Navigate from './etpQues/ques5/Routing/Navigate';
+// import Fetch from './etpQues/ques4/Fetch';
+// import LoginForm from './etpQues/ques4/LoginForm';
+// import Checkbox from './etpQues/ques3/Checkbox';
+// import Accordion from './etpQues/ques2/Accordion';
+// import ImageSlide from './etpQues/ques3/ImageSlide';
+// import DisplayList from './etpQues/ques2/DisplayList';
+// import ColorButton from './components/ColorButton/ColorButton';
 // import List from './components/ListOfItems/List';
 // import ProgressBarMarks from './components/ProgressBar/ProgressBarMarks';
 // import Countdown from './components/Countdown/Countdown';
@@ -85,7 +94,16 @@ function App() {
       {/* <Countdown/> */}
       {/* <ProgressBarMarks/> */}
       {/* <List/> */}
-      <ColorButton/>
+      {/* <ColorButton/> */}
+      {/* <DisplayList/> */}
+      {/* <Accordion/> */}
+      {/* <ImageSlide/> */}
+      {/* <Checkbox/> */}
+      {/* <LoginForm/> */}
+      {/* <Fetch/> */}
+      {/* <Navigate/> */}
+      {/* <AddNum/> */}
+      <Button/>
     </div>
   );
 }

@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+// Display the shopping cart before the online delivery (Add to cart functionality)
+
 const Cart = () => {
 
     const [cart, setCart] = useState([]);

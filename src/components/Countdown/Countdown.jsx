@@ -1,5 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 
+// Display the countdown timer
+
 function Countdown() {
   const [totalSeconds, setTotalSeconds] = useState(3600);
   const [isActive, setIsActive] = useState(false);
