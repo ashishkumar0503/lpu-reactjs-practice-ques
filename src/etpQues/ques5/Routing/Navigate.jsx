@@ -4,6 +4,8 @@ import Home from './Home';
 import About from './About';
 import Blog from './Blog';
 
+// Write a react code to develop a multipage application with navigation for Home, ABout and Blog page
+
 const Navigate = () => {
   return (
     <BrowserRouter>

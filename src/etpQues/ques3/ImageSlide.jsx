@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+// Write a react code to create an image slide where users can view multiple pages with next/previos button
+
 const ImageSlide = () => {
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);

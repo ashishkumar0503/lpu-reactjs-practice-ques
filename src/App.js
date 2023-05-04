@@ -1,5 +1,16 @@
 import './App.css';
-import Button from './etpQues/ques6/Button';
+import Parent from './etpQues/ques5/Context/Parent';
+// import SearchList from './etpQues/ques1/SearchList';
+// import SimpleCounter from './etpQues/ques1/SimpleCounter';
+// import List from './etpQues/ques10/List';
+// import FormValidate from './etpQues/ques10/FormValidate';
+// import Styling from './etpQues/ques9/Styling';
+// import MyComponent from './etpQues/ques9/MyComponent';
+// import DataVisualize from './etpQues/ques8/DataVisualize';
+// import FormsData from './etpQues/ques8/FormsData';
+// import SimpleCalculator from './etpQues/ques7/SimpleCalculator';
+// import Hide from './etpQues/ques7/Hide';
+// import Button from './etpQues/ques6/Button';
 // import AddNum from './etpQues/ques6/AddNum';
 // import Navigate from './etpQues/ques5/Routing/Navigate';
 // import Fetch from './etpQues/ques4/Fetch';
@@ -103,7 +114,18 @@ function App() {
       {/* <Fetch/> */}
       {/* <Navigate/> */}
       {/* <AddNum/> */}
-      <Button/>
+      {/* <Button/> */}
+      {/* <Hide/> */}
+      {/* <SimpleCalculator/> */}
+      {/* <FormsData/> */}
+      {/* <DataVisualize/> */}
+      {/* <MyComponent/> */}
+      {/* <Styling/> */}
+      {/* <FormValidate/> */}
+      {/* <List/> */}
+      {/* <SimpleCounter/> */}
+      {/* <SearchList/> */}
+      <Parent/>
     </div>
   );
 }

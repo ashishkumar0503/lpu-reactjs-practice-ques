@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+// Create a react code to disable a button using the concept of controlled component
+
 const Button = () => {
 
     const [isDisabled, setIsDisabled] = useState(false);
