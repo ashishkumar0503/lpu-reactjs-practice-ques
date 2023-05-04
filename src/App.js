@@ -1,5 +1,6 @@
 import './App.css';
-import Parent from './etpQues/ques5/Context/Parent';
+import Main from './etpQues/StopWatch/Main';
+// import Parent from './etpQues/ques5/Context/Parent';
 // import SearchList from './etpQues/ques1/SearchList';
 // import SimpleCounter from './etpQues/ques1/SimpleCounter';
 // import List from './etpQues/ques10/List';
@@ -125,7 +126,8 @@ function App() {
       {/* <List/> */}
       {/* <SimpleCounter/> */}
       {/* <SearchList/> */}
-      <Parent/>
+      {/* <Parent/> */}
+      <Main/>
     </div>
   );
 }
